@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+header{
+  background-color: rgb(11, 9, 9);
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+}
+i{
+  color:rgb(239, 234, 234);
+  margin-top: 15px;
+  padding-left: 5%;
+  
+}
+.h3{
+  color: white;
+  bottom: 5px;
+  margin-left: 90%;
+  margin-top:-20px;
+  
+  
+}
+.header1{
+  position: absolute;
+  background-color: blue;
+  top: 40px;
+  height: 110px;
+  width: 100%;
+}
+.logo{
+  height: 110px;
+  width: 25%;
+  margin-top: 10px;
+}
+.logo img{
+  height: 80%;
+  width: 80%;
+}
+.h1{
+  position: absolute;
+  left: 53%;
+  bottom: 65px;
+}
+.icon{
+  position: relative;
+  bottom: 50%;
+  left: 41%;
+}
+.header2{
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  background-color: blueviolet;
+  top: 150px;
+}
+.body{
+  position: absolute;
+  left: 45px;
+}
+.body a{
+  color: white;
+  font-size: x-large;
+  margin-left: 50px;
+  padding: 11px 15px;
+}
+.body li{
+  display: inline-flex;
+}
+.body a:hover{
+  background-color: yellow;
+}
+.header2 a.active{
+  background-color: red;
+}
+.header2 a.active2{
+  background-color: brown;
+}
+
+      
